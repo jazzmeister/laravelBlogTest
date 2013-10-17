@@ -1,9 +1,18 @@
 <?php
 
-class PostsController extends BaseController {
+class PostsController extends BaseController{
 
+	/**
+	 * Get the current user of the application.
+	 *
+	 * If the user is a guest, null should be returned.
+	 *
+	 * @param  int         $id
+	 * @return mixed|null
+	 */
 
 	protected $post;
+	
 
 	public function __construct(Post $post)
 	{
@@ -16,9 +25,33 @@ class PostsController extends BaseController {
 	 */
 	public function index()
 	{
-        $posts = $this->post->all();
+		//gets the logged in user ID and matches it to the User ID in the post table
+		$id = Auth::user()->id;
+		//echo $id;
+        $posts = Post::where('user_id', '=', $id)->get();
 
-        return View::make('posts.index', compact('posts'));
+
+        if (Auth::check())
+        {
+
+
+			return View::make('posts.index', compact('posts'));
+    	}
+    	else
+    	{
+    		return View::make('home.login');
+    	}
+	}
+
+
+
+	public function showPosts()
+	{
+		
+		$posts = Post::where('user_id', '>', 0)->get();
+
+		return View::make('posts.allPosts', compact('posts'));
+
 	}
 
 	/**
@@ -26,10 +59,18 @@ class PostsController extends BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create()
-	{
-        return View::make('posts.create');
-	}
+	public function create(){
+		//gets the logged in user ID and matches it to the User ID in the post table
+		$id = Auth::user()->id;
+		if (Auth::check())
+        {
+			return View::make('posts.create');
+    	}
+    	else
+    	{
+    		return View::make('home.login');
+    	}
+    }
 
 	/**
 	 * Store a newly created resource in storage.
@@ -44,7 +85,7 @@ class PostsController extends BaseController {
 
 		if ($v->passes())
 		{
-			$this->posts->create($input);
+			$this->post->create($input);
 
 			return Redirect::route('posts.index');
 		}
@@ -63,9 +104,16 @@ class PostsController extends BaseController {
 	 */
 	public function show($id)
 	{
-       	$posts = $this->post->findOrFail($id);
+		if (Auth::check())
+        {
+       	$post = $this->post->findOrFail($id);
 
-        return View::make('posts.show', compact('posts'));
+        return View::make('posts.show', compact('post'));
+    	}
+    	else
+    	{
+    		return View::make('home.login');
+    	}
 	}
 
 	/**
@@ -77,13 +125,20 @@ class PostsController extends BaseController {
 	public function edit($id)
 	{
 		$post = $this->post->find($id);
-
-		if (is_null($post))
+		if (Auth::check())
 		{
-			return Redirect::route('posts.index');
-		}
+			if (is_null($post))
+			{
+				return Redirect::route('posts.index');
+			}
 
         return View::make('posts.edit', compact('post'));
+		}
+		else
+    	{
+    		return View::make('home.login');
+    	}
+		
 	}
 
 	/**
@@ -95,14 +150,14 @@ class PostsController extends BaseController {
 	public function update($id)
 	{
 		$input = array_except(Input::all(), '_method');
-		$v = validator::make($input, Post::$rules);
+		$v = Validator::make($input, Post::$rules);
 
 		if ($v->passes())
 		{
 			$post = $this->post->find($id);
 			$post->update($input);
 
-			return View::make('posts.show', $id);
+			return Redirect::route('posts.show', $id);
 		}
 
 		return Redirect::route('posts.edit', $id)
@@ -119,9 +174,11 @@ class PostsController extends BaseController {
 	 */
 	public function destroy($id)
 	{
-		$this->posts->find($id)->delete();
+		$this->post->find($id)->delete();
 
 		return Redirect::route('posts.index');
 	}
 
 }
+
+
