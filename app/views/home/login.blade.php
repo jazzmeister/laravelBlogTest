@@ -3,8 +3,8 @@
 @section('content')
 
 <div class="row">
-	<div class="span4 offset1">
-		<div class="well">
+	<div class="span8 offset1">
+		<div >
 			<legend>Please Login</legend>
 			{{ Form::open(array('url' => 'login')) }}
 			@if($errors->any())
