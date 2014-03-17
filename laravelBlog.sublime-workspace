@@ -1,0 +1,444 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ta",
+				"ta:r	text-align:right"
+			],
+			[
+				"pos",
+				"pos:s	position:static"
+			],
+			[
+				"bg",
+				"bg+	background:#fff url()"
+			],
+			[
+				"d",
+				"d:cp	display:compact"
+			],
+			[
+				"ass",
+				"assfe	assertFileEquals"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"S",
+				"Storage"
+			],
+			[
+				"D",
+				"DateTime"
+			],
+			[
+				"Date",
+				"DateTime"
+			],
+			[
+				"Dat",
+				"DateFormatter"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"assert",
+				"assertEquals"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Fa",
+				"FactoryMuff"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"is_",
+				"is_array"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ex",
+				"extends"
+			],
+			[
+				"rec",
+				"recipient"
+			],
+			[
+				"reci",
+				"recipients"
+			],
+			[
+				"recip",
+				"recipients"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "/Users/jasonbishop/Package/Grid-Html-v1.1/index4.html",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gis",
+				"Gist: Insert Gist"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"syntaphp",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"",
+				"Gist: Open Gist"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prefixr",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"emme",
+				"Emmet: Decrement Number by 1"
+			],
+			[
+				"emm",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"emmer",
+				"Emmet: Reflect CSS Value"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"asse",
+				"Snippet: assertContains"
+			],
+			[
+				"packageinstall",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"controller",
+				"Snippet: Route-controller"
+			],
+			[
+				"forea",
+				"Snippet: foreach …"
+			],
+			[
+				"syntax lar",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 818.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/laravelBlogTestNew/snippet",
+		"/Applications/MAMP/htdocs/laravelBlogTestNew/app/routes.php",
+		"/Users/jasonbishop/Downloads/GRID",
+		"/Users/jasonbishop/Download",
+		"/Users/jasonbishop/Library/Application Support/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/Users/jasonbishop/Library/Application Support/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/Users/jasonbishop/2/Packages/Gist/Gist.sublime-commands",
+		"/Users/jasonbishop/Library/Application",
+		"/Users/jasonbishop/Support/Sublime",
+		"/Users/jasonbishop/Text",
+		"/Users/jasonbishop/2/Packages/Gist/Gist.sublime-settings",
+		"/Applications/MAMP/htdocs/laravelBlogTestNew/laravelBlog.sublime-project",
+		"/Applications/MAMP/htdocs/laravelBlogTestNew/laravelBlog.sublime-workspace",
+		"/Users/jasonbishop/Library/Application Support/Sublime Text 2/Settings/SideBarEnhancements.json",
+		"/Applications/MAMP/htdocs/laravelBlogTest/app/database/migrations/2013_10_01_113543_add_clique_id_posts_table.php",
+		"/Applications/MAMP/htdocs/laravelBlogTest/artisan",
+		"/Applications/MAMP/htdocs/laravelBlogTest/app/controllers/BaseController.php",
+		"/Applications/MAMP/htdocs/laravelBlogTest/app/views/blog/create.blade.php",
+		"/Applications/MAMP/htdocs/laravelBlogTest/app/views/blog/edit.blade.php",
+		"/Applications/MAMP/htdocs/laravelBlogTest/app/views/blog/index.blade.php",
+		"/Applications/MAMP/htdocs/laravel/app/config/database.php",
+		"/Applications/MAMP/htdocs/laravel/app/database/migrations/2013_07_03_230223_create_users_table.php",
+		"/Applications/MAMP/htdocs/laravel/app/models/UserOld.php",
+		"/Applications/MAMP/htdocs/laravel/app/models/User.php",
+		"/Applications/MAMP/htdocs/laravel/phpinfo.php",
+		"/Applications/MAMP/bin/php/php5.4.4/conf/php.ini",
+		"/Applications/MAMP/conf/php5.4.3/php.ini",
+		"/Applications/MAMP/htdocs/wrap_rmp/helloWorld.php",
+		"/Applications/MAMP/htdocs/oop_tests/classes/class.emailer.php",
+		"/Applications/MAMP/htdocs/wrap_rmp/register.php",
+		"/Applications/MAMP/htdocs/testdrive/protected/views/site/login.php",
+		"/Applications/MAMP/htdocs/testdrive/protected/views/site/index.php",
+		"/Applications/MAMP/htdocs/testdrive/protected/views/site/pages/about.php",
+		"/Applications/MAMP/htdocs/testdrive/protected/views/layouts/main.php",
+		"/Applications/MAMP/htdocs/testdrive/protected/config/main.php",
+		"/Applications/MAMP/htdocs/wrap_rmp/dbserver/clsDBServer.php",
+		"/Applications/MAMP/htdocs/testdrive/index.php",
+		"/Applications/MAMP/htdocs/yii-test/framework/yiic.bat"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"integer",
+			"type",
+			"[type]",
+			"false",
+			"php",
+			"recent news",
+			"dark",
+			"allow_call_time_pass_reference",
+			"/var/mysql/mysql.sock",
+			"pd",
+			"exten",
+			"php_pgsql.dll",
+			"result",
+			"test",
+			"error_reporting",
+			"query",
+			"edit",
+			"clslogin",
+			"mainmenu",
+			"yw1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jasonbishop/Package/Grid-Html-v1.1/index4.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"posts/inde",
+				"app/views/posts/index.blade.php"
+			],
+			[
+				"post",
+				"app/models/Post.php"
+			],
+			[
+				"postscontro",
+				"app/controllers/PostsController.php"
+			],
+			[
+				"rou",
+				"app/routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true
+}
